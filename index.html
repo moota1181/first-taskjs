@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="md:col-10 mt-12 pt-12 m-auto">
+          <h2 class="text-center">Convert Dollar To Egyptian Pounds</h2>
+          <form
+            id="myForm"
+            action="about.html"
+            onsubmit="return convertValue();"
+          >
+            <input
+              type="text"
+              name=""
+              id="dollar"
+              class="form-control mt-8"
+              placeholder="Enter Dollar"
+            />
+            <input
+              type="submit"
+              value="Convert"
+              class="btn-solid theme-success my-8 w-100"
+            />
+          </form>
+          <h5 id="result"></h5>
+        </div>
+      </div>
+    </div>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- java script  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
